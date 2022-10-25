@@ -1,0 +1,45 @@
+.row {
+    --bs-gutter-x: 0rem;
+    --bs-gutter-y: 0;
+}
+
+.header .row{
+	text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.img1{
+	width: 100%;
+	border-radius: 30px;
+}
+
+.tools .row{
+	text-align: center;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	margin-top: 4%;
+	margin-bottom: 4%;
+} 
+
+.row .data-place {
+  background-color: #f6f6f6;
+}
+
+
+
+#demo {
+  direction: rtl;
+  text-align: center;
+  /*margin: 2em 0;
+  background-color: #f6f6f6;*/
+  color: #333;
+  font-family: 'Lalezar', cursive, tahoma, Arial, sans-serif;
+}
+
+
+.mnav .row {
+	flex-direction: row-reverse;
+    justify-content: space-evenly;
+	text-align: center;
+}
